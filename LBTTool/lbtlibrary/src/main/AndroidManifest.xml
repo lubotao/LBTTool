@@ -1,2 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.com.lbt.lbtlibrary" />
+    package="cn.com.lbt.lbtlibrary" >
+    <application>
+
+        <activity
+            android:name=".utils.app.PermissionUtils$PermissionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/DevActivityTranslucentTheme"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+
+    </application>
+
+</manifest>
